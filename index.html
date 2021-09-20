@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>How to take Online Class </title>
+	<!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>How to take Online Class effectively</title>
+</head>
+<body>
+	<div class="navbar">
+		<img src="images/bolb.jpg" class="bolb">
+		<div class="container">
+		
+			<img id="menu" class="menu-menu" src="images/menu.svg" alt="Open Navigation">
+			<a class="logo" href="#"><span>E</span>Learning</a>
+			
+			<nav>
+				<img id="exit" class="menu-exit" src="images/exit.svg" alt="Close Navigation">
+				<ul class="ulnav">
+					<li class="current"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Feature</a></li>
+				</ul>
+				<ul class="linav">
+					<li class="second"><a href="#">Contact Me</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<section class="sec">
+		<div class="container">
+			<img src="images/time.jpg">
+			<div class="phar">How to take Online classes effectively.<br><span>		Learning is based on the person's will,<br> not on what the other says.</span></div>
+			
+		
+		</div>
+	</section>
+
+	<script>
+
+        const mobileBtn= document.getElementById('menu')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+		})
+	</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
